@@ -13,3 +13,5 @@ jobs:
         uses: codecov/codecov-action@v2
         with:
           files: ./pom.xml.gcov
+          token: ${{ secrets.CODECOV_TOKEN }}
+
